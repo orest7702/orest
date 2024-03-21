@@ -1,0 +1,8 @@
+{
+  "name": "orest",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "5a9fa267"
+}
