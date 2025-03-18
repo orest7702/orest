@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d313dc6b-2830-4260-b8a7-2aa761228d52" name="Changes" comment="" />
+    <list default="true" id="d313dc6b-2830-4260-b8a7-2aa761228d52" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/model_student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/add_student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/edit_student.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foto/block.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foto/pixil-frame-0 (10).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moyo/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moyo/smiy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moyo/stendoff.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moyo/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moyo/tt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moyo/ww.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moyo/yytt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moyo/експеременти.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moyo/ігра.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ryh/left/left_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ryh/left/left_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ryh/left/left_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ryh/left/left_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ryh/right/right_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ryh/right/right_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ryh/right/right_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ryh/right/right_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ryh/stop_ryh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syudent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/fakulty.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +42,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/pygame.py" root0="FORCE_HIGHLIGHTING" />
@@ -28,6 +60,7 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2N6SFRxk2ZPLXeCog4POL0RR5GZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,7 +70,8 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/8888/PycharmProjects/pythonProject1/foto&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/8888/PycharmProjects/pythonProject1&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -60,27 +94,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.app">
-    <configuration name="експеременти" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\8888\PycharmProjects\pythonProject1\moyo\експеременти.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="ігра" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -312,6 +325,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="model_student" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_student.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="rtrtrtrt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -378,19 +412,20 @@
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.ігра" />
+      <item itemvalue="Python.model_student" />
       <item itemvalue="Python.app" />
       <item itemvalue="Python.bd_python" />
       <item itemvalue="Python.smiy" />
-      <item itemvalue="Python.експеременти" />
       <item itemvalue="Python.rtrtrtrt" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.model_student" />
         <item itemvalue="Python.bd_python" />
         <item itemvalue="Python.rtrtrtrt" />
         <item itemvalue="Python.smiy" />
-        <item itemvalue="Python.експеременти" />
       </list>
     </recent_temporary>
   </component>
@@ -403,6 +438,18 @@
       <option name="presentableId" value="Default" />
       <updated>1678982934610</updated>
     </task>
+    <task id="LOCAL-00001" summary="jbnn">
+      <created>1742286636964</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742286636964</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="jbnn" />
+    <option name="LAST_COMMIT_MESSAGE" value="jbnn" />
   </component>
 </project>

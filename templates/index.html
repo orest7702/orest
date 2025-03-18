@@ -1,33 +1,13 @@
 <!DOCTYPE html>
-<html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Flask App</title>
-</head>
+<html>
+<head><title>Список студентів</title></head>
 <body>
-    <h1>Список користувачів</h1>
-
-    <!-- Форма додавання користувача -->
-    <form action="/add_user" method="POST">
-        <label for="name">Ім'я:</label>
-        <input type="text" id="name" name="name" required><br><br>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <button type="submit">Додати користувача</button>
-    </form>
-
-    <h2>Користувачі в базі:</h2>
-    <ul>
-        {% if users %}
-            {% for user in users %}
-                <li>{{ user.name }} - {{ user.email }}</li>
-            {% endfor %}
-        {% else %}
-            <li>Немає користувачів у базі</li>
-        {% endif %}
-    </ul>
+<h1>Список студентів</h1>
+<a href='/add'>Додати студента</a>
+<ul>
+    {% for student in students %}
+    <li>{{ student.first_name }} {{ student.last_name }} - <a href='/edit/{{ student.id }}'>Редагувати</a> | <a href='/delete/{{ student.id }}'>Видалити</a></li>
+    {% endfor %}
+</ul>
 </body>
 </html>
