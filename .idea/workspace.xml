@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d313dc6b-2830-4260-b8a7-2aa761228d52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test_app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foto/block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foto/pixil-frame-0 (10).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_student.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moyo/main.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/moyo/smiy.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/moyo/stendoff.py" beforeDir="false" />
@@ -29,8 +24,6 @@
       <change beforePath="$PROJECT_DIR$/ryh/right/right_3.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ryh/right/right_4.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ryh/stop_ryh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/add_student.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/edit_student.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -430,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1742308305912</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="jbnn">
+      <created>1742411699347</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742411699347</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
