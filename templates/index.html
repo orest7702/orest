@@ -1,13 +1,189 @@
 <!DOCTYPE html>
-<html>
-<head><title>Список студентів</title></head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+   <script src="./main.js"></script>
+</head>
 <body>
-<h1>Список студентів</h1>
-<a href='/add'>Додати студента</a>
-<ul>
-    {% for student in students %}
-    <li>{{ student.first_name }} {{ student.last_name }} - <a href='/edit/{{ student.id }}'>Редагувати</a> | <a href='/delete/{{ student.id }}'>Видалити</a></li>
-    {% endfor %}
-</ul>
+   <header class="hed">
+    <div class="header__inner">
+        <a href="index.html" class="logo">
+        <img src="./img/logo (1).png" alt="" class="logo__img">
+        </a>
+        <nav class="menu">
+
+            <ul class="menu__list">
+                <li class="menu__list-item">
+                    <a href="./uni.html" class="menu__list-link">Про Університет</a>
+                </li>
+                <li class="menu__list-item">
+                    <a href="./facul.html" class="menu__list-link">Факультети</a>
+                </li>
+                
+            </ul>
+          
+        </nav>
+    </div>
+    </div>
+    </div>
+   </header>
+   </div>
+
+   
+<div class="hed_down">
+    <div class="container">
+<h1>Якщо Ви обираєте <br> майбтунє  - навчаєтеся <br> у найкращих!
+</h1>
+
+ <div class="img">
+    <img src="./main 1.png" alt="">
+</div> 
+
+
+
+    </div>
+</div>
+
+
+
+<div class="containerbut">
+    <div class="btn">
+        <div class="active-popup">
+        <a class='button' href="#" onclick="showPopup()">
+            Заповни заявку зараз !</a>
+        </div>
+       </div>
+    </div>
+   </div>
+
+
+   <div class="wrapper" id="popup12">
+    <span class="icon-close"></span>
+    <div class="forma-box ">
+        <h2>Реєстрація</h2>
+        <form name="myname" action="#" onsubmit="return validateForm()" method="post">
+        Імʼя: <input type="text" name="fname">
+          </form>        
+        </div>
+
+        <div class="form-container">
+        <form name="mysurname" action="#" onsubmit="return validateForm()" method="post">
+            Прізвище: <input type="text" name="sname">
+          </form>  
+          <form name="mysurnmameP" action="#" onsubmit="return validateForm()" method="post">
+            По батькові: <input type="text" name="spname">
+          </form>  
+
+          <form name="namevil" action="#" onsubmit="return validateForm()" method="post">
+            Назва населеного пункту: <input type="text" name="vname">
+
+          </form>  
+          <form name="codvil" action="#" onsubmit="return validateForm()" method="post">
+            Код місця проживання: <input type="text" name="cvil">
+          </form>
+          
+          <form name="namefacult" action="#" onsubmit="return validateForm()" method="post">
+            Назва факультету: <input type="text" name="nfacul">
+          </form> 
+          
+          <form name="codfacult" action="#" onsubmit="return validateForm()" method="post">
+            Код факультету: <input type="text" name="cfacul">
+          </form> 
+          
+          <form name="osobnfacult" action="#" onsubmit="return validateForm()" method="post">
+            Особовий номер абітурієнта: <input type="text" name="onname">
+          </form> 
+
+          <form name="marksmath" action="#" onsubmit="return validateForm()" method="post">
+            Оцінка з математики: <input type="text" name="marmath">
+          </form> 
+          
+          <form name="marksukr" action="#" onsubmit="return validateForm()" method="post">
+            Оцінка з української мови: <input type="text" name="marukr">
+          </form>
+          
+          <form name="kbname" action="#" onsubmit="return validateForm()" method="post">
+            Контракт/Бюджет: <input type="text" name="kbn">
+          </form>
+        </div>
+          
+        
+                    <div class="remember_forgot">
+                        <input  type="checkbox" >
+                        <label >Запамʼятати мене</label>
+                
+                    </div>
+                    <div class="but_close" id="pop13">
+                        <button class="button_close " onclick="closePup()">Закрити</button>
+                    </div>
+                    <button type="submit" class="button_sub">Заповнити</button>
+            </div>
+
+        </div>
+        </form>
+    </div>
+
+   </div>
+
+<div class="container_main">
+    <div class="image">
+      <li>Сучасні освітні програми</li>
+      <div class="im1">
+      <img src="./img/1.png" alt="">
+      <div class="tex-1">
+      <li>Розробка та впровадження інноваційних освітніх <br>програм, що відповідають сучасним вимогам <br>ринку праці та забезпечують випускникам <br> конкурентні переваги.</li>
+    </div>
+
+    <div class="image2">
+        <li>Досвідчені викладачі</li>
+        <div class="im2">
+            <img src="./img/2.png" alt="">
+            <div class="tex-2">
+                <li>У Львівській Політехніці працюють <br> професіонали з багаторічним досвідом, які <br> поєднують теорію з практикою та  <br> допомагають студентам розкрити свій <br> потенціал.</li>
+            </div>
+        </div>
+    </div>
+
+    <div class="image3">
+        <li>Міжнародні можливості</li>
+        <div class="im3">
+            <img src="./img/3.png" alt="">
+            <div class="tex-3">
+            <li>Навчання у Національному <br> університеті "Львівська політехніка" <br> відкриває двері до глобальної освіти та <br> кар’єрних перспектив!</li>
+            </div>
+        </div>
+    </div>
+
+    <div class="image4">
+        <li>Яскраве студентське життя</li>
+        <div class="im2">
+            <img src="./img/4.png" alt="">
+            <div class="tex-4">
+                <li>Студентські роки – це не лише лекції та <br> іспити, а й яскраві враження, нові <br>  знайомства та безмежні можливості для <br> саморозвитку!</li>
+        </div>
+    </div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+   <footer class="footer">
+    <div class="footer_m">
+        <li>Зворотний зв'язок</li>
+        <li>Канцелярія унівирситету: coffice@lpnu.ua</li>
+        <li>Приймальна комісія: entrance@lpnu.ua,<br>+38 032 258-25-37, <br> +38 032 258-22-65; <br>+38 096 887-90-16, <br> +38 099 101-93-62;</li>
+    </div>
+   </footer>
 </body>
 </html>

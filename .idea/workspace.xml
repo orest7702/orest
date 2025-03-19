@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d313dc6b-2830-4260-b8a7-2aa761228d52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/model_student.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/add_student.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/edit_student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foto/block.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/foto/pixil-frame-0 (10).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_student.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moyo/main.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/moyo/smiy.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/moyo/stendoff.py" beforeDir="false" />
@@ -30,8 +29,8 @@
       <change beforePath="$PROJECT_DIR$/ryh/right/right_3.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ryh/right/right_4.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ryh/stop_ryh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/syudent.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/fakulty.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/add_student.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/edit_student.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +56,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2N6SFRxk2ZPLXeCog4POL0RR5GZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -87,34 +86,14 @@
       <recent name="C:\Users\8888\PycharmProjects\pythonProject1\pygame.py" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\8888\PycharmProjects\pythonProject1" />
+      <recent name="C:\Users\8888\PycharmProjects\pythonProject1\templates" />
       <recent name="C:\Users\8888\PycharmProjects\pythonProject1\moyo" />
       <recent name="C:\Users\8888\PycharmProjects\pythonProject1\foto" />
       <recent name="C:\Users\8888\PycharmProjects\pythonProject1\ryh" />
-      <recent name="C:\Users\8888\PycharmProjects\pythonProject1" />
     </key>
   </component>
   <component name="RunManager" selected="Python.app">
-    <configuration name="ігра" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ігра.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="експеременти" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -367,27 +346,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="smiy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\8888\PycharmProjects\pythonProject1\moyo\smiy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -409,23 +367,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\8888\PycharmProjects\pythonProject1\test_app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.ігра" />
+      <item itemvalue="Python.test_app" />
       <item itemvalue="Python.model_student" />
       <item itemvalue="Python.app" />
       <item itemvalue="Python.bd_python" />
-      <item itemvalue="Python.smiy" />
       <item itemvalue="Python.rtrtrtrt" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.test_app" />
         <item itemvalue="Python.model_student" />
         <item itemvalue="Python.bd_python" />
         <item itemvalue="Python.rtrtrtrt" />
-        <item itemvalue="Python.smiy" />
       </list>
     </recent_temporary>
   </component>
@@ -445,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1742286636964</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="jbnn">
+      <created>1742308305912</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742308305912</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
