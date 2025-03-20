@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Редагування інформації про факультет</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 20px;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background: #007BFF;
+            color: white;
+        }
+        input[type="text"], input[type="number"], select {
+            padding: 5px;
+            width: 80%;
+            margin: 5px 0;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Редагування інформації про факультет</h2>
+    <form action="{{ url_for('edit_student', id=faculty.id) }}" method="POST">
+        <table>
+            <tr>
+                <th>Поле</th>
+                <th>Значення</th>
+            </tr>
+            <tr>
+                <td>Назва</td>
+                <td><input type="text" name="faculty_name" value="{{ faculty.faculty_name }}" required></td>
+            </tr>
+            <tr>
+                <td>код</td>
+                <td><input type="text" name="faculty_code" value="{{ faculty.faculty_code }}" required></td>
+            </tr>
+
+            <tr>
+                <input type="hidden" name="id" value="{{ faculty.faculty_id }}" required>
+            </tr>
+        </table>
+        <input type="submit" value="Зберегти зміни">
+    </form>
+</div>
+
+</body>
+</html>

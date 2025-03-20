@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d313dc6b-2830-4260-b8a7-2aa761228d52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/ful_student.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/new_faculty.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/new_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ful_faculty.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bd_python.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_student.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/new_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/new_table.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -430,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1742413531657</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="jbnn">
+      <created>1742472106011</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742472106012</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

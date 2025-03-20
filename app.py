@@ -24,7 +24,6 @@ class Faculty(db.Model):
 
 class Student(db.Model):
     __tablename__ = "student"
-
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(255))
     last_name = db.Column(db.String(255))
@@ -38,7 +37,7 @@ class Student(db.Model):
     specuality_id = db.Column(db.Integer, db.ForeignKey('specuality.id'), nullable=False)
 
     def __repr__(self):
-        return 'Student ID: {}'.format(self.id)
+        return f'Student ID: {self.id}'
 
 
 @app.route('/')
@@ -75,7 +74,7 @@ def new_student(faculty_id):
         name_settlement = request.form["vname"]
         math_grade = request.form["marmath"]
         uk_language = request.form["marukr"]
-        faculty_id = request.form["specuality_id"]
+        faculty_id = request.form["faculty_id"]
 
         new_student = Student(
             name=name,
@@ -110,35 +109,22 @@ def new_table_student(faculty_id):
 
 
 
-@app.route('/delete_student/<int:id>', methods=["POST", "GET"])
-def delete_student(id):
-    student = Student.query.get(id)
+@app.route('/delete_student/<int:student_id>', methods=["POST", "GET"])
+def delete_student(student_id):
+    student = Student.query.get_or_404(student_id)
     if student:
         db.session.delete(student)
         db.session.commit()
-        print(f"Студента з ID {id} успішно видалено.")
     return redirect(url_for('index'))
 
 
-@app.route('/edit_faculty/<int:faculty_id>', methods=['GET', 'POST'])
-def edit_faculty(faculty_id):
-    faculty = Faculty.query.get_or_404(faculty_id)  # Отримуємо факультет або повертаємо 404
-
-    if request.method == 'POST':
-        faculty.faculty_name = request.form['faculty_name']
-        faculty.faculty_code = request.form['faculty_code']
-
-        db.session.commit()  # Зберігаємо зміни в базі даних
-        flash('Дані факультету оновлено!', 'success')
-        return redirect(url_for('index'))
-
-    return render_template('edit_faculty.html', faculty=faculty)
-
-
-@app.route('/get_all_students', methods=["POST", "GET"])
-def get_all_students():
-    students = Student.query.all()
-    return render_template('students_list.html', students=students)
+@app.route('/delete_faculty/<int:id>', methods=["POST", "GET"])
+def delete_faculty(id):
+    faculty = Faculty.query.get_or_404(id)
+    if faculty:
+        db.session.delete(faculty)
+        db.session.commit()
+    return redirect(url_for('index'))
 
 
 @app.route('/edit_faculty/<int:id>', methods=['GET', 'POST'])
@@ -153,7 +139,13 @@ def edit_faculty(id):
         flash('Дані факультету оновлено!', 'success')
         return redirect(url_for('index'))
 
-    return render_template('edit_faculty.html', faculty=faculty)
+    return render_template('new_faculty.html', faculty=faculty)
+
+
+@app.route('/get_all_students', methods=["POST", "GET"])
+def get_all_students():
+    students = Student.query.all()
+    return render_template('students_list.html', students=students)
 
 
 @app.route('/edit_student/<int:student_id>', methods=['GET', 'POST'])
