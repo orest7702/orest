@@ -5,26 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d313dc6b-2830-4260-b8a7-2aa761228d52" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ful_student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/new_faculty.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/new_table.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moyo/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moyo/smiy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moyo/stendoff.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moyo/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moyo/tt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moyo/ww.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moyo/yytt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moyo/експеременти.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moyo/ігра.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ryh/left/left_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ryh/left/left_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ryh/left/left_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ryh/left/left_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ryh/right/right_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ryh/right/right_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ryh/right/right_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ryh/right/right_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ryh/stop_ryh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bd_python.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_student.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_app.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +39,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2N6SFRxk2ZPLXeCog4POL0RR5GZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -68,6 +58,8 @@
   },
   &quot;keyToStringList&quot;: {
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;C++&quot;,
+      &quot;CSS&quot;,
       &quot;Python&quot;
     ]
   }
@@ -79,11 +71,11 @@
       <recent name="C:\Users\8888\PycharmProjects\pythonProject1\pygame.py" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\8888\PycharmProjects\pythonProject1" />
+      <recent name="C:\Users\8888\PycharmProjects\pythonProject1\static" />
       <recent name="C:\Users\8888\PycharmProjects\pythonProject1\templates" />
+      <recent name="C:\Users\8888\PycharmProjects\pythonProject1" />
       <recent name="C:\Users\8888\PycharmProjects\pythonProject1\moyo" />
       <recent name="C:\Users\8888\PycharmProjects\pythonProject1\foto" />
-      <recent name="C:\Users\8888\PycharmProjects\pythonProject1\ryh" />
     </key>
   </component>
   <component name="RunManager" selected="Python.app">
@@ -384,6 +376,7 @@
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.експеременти" />
       <item itemvalue="Python.test_app" />
       <item itemvalue="Python.model_student" />
       <item itemvalue="Python.app" />
@@ -430,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1742411699347</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="jbnn">
+      <created>1742413531657</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742413531657</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

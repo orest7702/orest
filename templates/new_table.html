@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Інформація про студента</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 20px;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background: #007BFF;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Додати нового студента</h2>
+    <form action="{{ url_for('new_student', faculty_id=faculty.id) }}" method="post">
+        <label for="fname">Ім'я:</label>
+        <input type="text" id="fname" name="fname" required><br>
+
+        <label for="sname">Прізвище:</label>
+        <input type="text" id="sname" name="sname" required><br>
+
+        <label for="spname">По батькові:</label>
+        <input type="text" id="spname" name="spname" required><br>
+
+        <label for="onname">Персональний номер:</label>
+        <input type="text" id="onname" name="onname" required><br>
+
+        <label for="kbn">Статус:</label>
+        <input type="text" id="kbn" name="kbn" required><br>
+
+        <label for="cvil">Код місця проживання:</label>
+        <input type="text" id="cvil" name="cvil" required><br>
+
+        <label for="vname">Назва населеного пункту:</label>
+        <input type="text" id="vname" name="vname" required><br>
+
+        <label for="marmath">Оцінка з математики:</label>
+        <input type="number" id="marmath" name="marmath" required><br>
+
+        <label for="marukr">Оцінка з української мови:</label>
+        <input type="number" id="marukr" name="marukr" required><br>
+
+        <input type="hidden" name="specuality_id" value="{{ faculty.id }}">
+
+        <button type="submit">Додати студента</button>
+    </form>
+</body>
+</html>
+

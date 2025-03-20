@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Редагування інформації про студента</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 20px;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background: #007BFF;
+            color: white;
+        }
+        input[type="text"], input[type="number"], select {
+            padding: 5px;
+            width: 80%;
+            margin: 5px 0;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Редагування інформації про студента</h2>
+    <form action="{{ url_for('edit_student', student_id=student.id) }}" method="POST">
+        <table>
+            <tr>
+                <th>Поле</th>
+                <th>Значення</th>
+            </tr>
+            <tr>
+                <td>Ім'я</td>
+                <td><input type="text" name="name" value="{{ student.name }}" required></td>
+            </tr>
+            <tr>
+                <td>Прізвище</td>
+                <td><input type="text" name="last_name" value="{{ student.last_name }}" required></td>
+            </tr>
+            <tr>
+                <td>По батькові</td>
+                <td><input type="text" name="first_name" value="{{ student.first_name }}" required></td>
+            </tr>
+            <tr>
+                <td>Номер особи</td>
+                <td><input type="text" name="person_number" value="{{ student.person_number }}" required></td>
+            </tr>
+            <tr>
+                <td>Статус</td>
+                <td><input type="text" name="status" value="{{ student.status }}" required></td>
+            </tr>
+            <tr>
+                <td>Код місця проживання</td>
+                <td><input type="text" name="reside_code" value="{{ student.reside_code }}" required></td>
+            </tr>
+            <tr>
+                <td>Назва населеного пункту</td>
+                <td><input type="text" name="name_settlement" value="{{ student.name_settlement }}" required></td>
+            </tr>
+            <tr>
+                <td>Оцінка з математики</td>
+                <td><input type="number" name="math_grade" value="{{ student.math_grade }}" required></td>
+            </tr>
+            <tr>
+                <td>Оцінка з української мови</td>
+                <td><input type="number" name="uk_language" value="{{ student.uk_language }}" required></td>
+            </tr>
+            <tr>
+                <input type="hidden" name="specuality_id" value="{{ student.specuality_id }}" required>
+            </tr>
+        </table>
+        <input type="submit" value="Зберегти зміни">
+    </form>
+</div>
+
+</body>
+</html>
+
