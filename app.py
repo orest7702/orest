@@ -139,7 +139,7 @@ def edit_faculty(id):
         flash('Дані факультету оновлено!', 'success')
         return redirect(url_for('index'))
 
-    return render_template('new_faculty.html', faculty=faculty)
+    return render_template('ful_faculty.html', faculty=faculty)
 
 
 @app.route('/get_all_students', methods=["POST", "GET"])
